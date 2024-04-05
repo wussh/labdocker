@@ -22,3 +22,4 @@ COPY --from=stage1 /opt/index.html /usr/share/nginx/html/
 # Set the entry point command for the container to start nginx with the specified configuration
 ENTRYPOINT ["nginx","-g","daemon off;"]
 
+# docker run -d --rm --name lab3-v2 -p 9001:80 lab3:v2
