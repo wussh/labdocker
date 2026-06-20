@@ -1,4 +1,4 @@
-FROM alpine:3.9.3
+FROM alpine:3.24.1
 RUN apk update && \
     apk git
 
