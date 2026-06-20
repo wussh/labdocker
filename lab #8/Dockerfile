@@ -1,4 +1,4 @@
-FROM alpine:3.9.3
+FROM alpine:3.24.1
 LABEL maintainer="wush"
 #Setting a default value to Argument WELCOME_USER
 ARG WELCOME_USER=wush
