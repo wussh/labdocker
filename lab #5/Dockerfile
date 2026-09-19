@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.24
 LABEL maintainer="wush"
 ENTRYPOINT [ "/bin/echo", "hi kocak" ]
 # docker run lab5

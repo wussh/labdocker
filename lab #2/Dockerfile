@@ -1,5 +1,5 @@
 # Use the alpine:3.5 image as the base image
-FROM alpine:3.5
+FROM alpine:3.24
 
 # Update the package index inside the container
 RUN apk update
