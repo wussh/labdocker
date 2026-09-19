@@ -1,4 +1,4 @@
-FROM alpine:3.9.3
+FROM alpine:3.24.2
 LABEL maintainer="wush"
 ENV API_URL="localhost:8080"
 
